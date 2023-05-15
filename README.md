@@ -1,6 +1,13 @@
 # NTUST_OOP_MINESWEEPER_EXAMPLE
  Project1-MineSweeper-助教範例-Source Code
 
+![](imgs/cover.PNG)
+
+## clone this repository:
+```console
+git clone https://github.com/frakw/NTUST_OOP_MINESWEEPER_EXAMPLE.git
+``
+
 ## 環境
 * Qt 5.15.2 msvc2019_64
 * Visual Studio 2019 16.11.24
@@ -25,3 +32,4 @@
 6. 自動創建Visual Studio專案，可將.sln檔存起來
 
 > P.S. 如果出現"新行字元..."相關錯誤訊息，請將MineSweeperGUI.cpp以UTF-8(有簽章)格式儲存檔案，不可使用BIG5或UTF-8(無簽章)
+> 存放路徑中，請不要出現ascii code以外的字元
