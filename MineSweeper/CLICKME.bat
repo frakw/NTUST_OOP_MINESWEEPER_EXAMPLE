@@ -1,0 +1,1 @@
+.\qt-static-5.15.2\bin\qmake.exe -tp vc MineSweeper.pro -o .\VSProject

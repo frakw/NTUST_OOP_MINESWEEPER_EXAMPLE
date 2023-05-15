@@ -1,0 +1,38 @@
+Load BoardFile ./boards/board1.txt
+StartGame
+LeftClick 0 7
+Print GameBoard
+Print GameAnswer
+LeftClick 4 8
+LeftClick 8 0
+Print GameBoard
+LeftClick 4 0
+RightClick 5 0
+RightClick 4 1
+LeftClick 5 1
+LeftClick 5 2
+LeftClick 4 2
+Print GameBoard
+LeftClick 4 6
+LeftClick 4 5
+LeftClick 4 4
+Print GameBoard
+Print GameState
+LeftClick 7 7
+LeftClick 7 8
+RightClick 2 4
+RightClick 6 2
+Print GameBoard
+RightClick 7 5
+LeftClick 8 5
+LeftClick 5 7
+LeftClick 6 7
+RightClick 4 7
+RightClick 5 6
+RightClick 6 6
+Print GameBoard
+LeftClick 5 8
+LeftClick 6 8
+LeftClick 7 6
+LeftClick 8 6
+Quit

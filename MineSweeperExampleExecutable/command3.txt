@@ -1,0 +1,108 @@
+Load BoardFile ./boards/board4.txt
+LeftClick 2 3
+Print GameState
+StartGame
+Print GameBoard
+LeftClick -1 -1
+mew mewmew cat
+LeftClick 0 0
+Print GameBoard
+LeftClick 2 4
+Print GameBoard
+RightClick 2 6
+LeftClick 9 9
+LeftClick 74 14
+LeftClick 4 0
+LeftClick 3 0
+LeftClick 2 0
+Print OpenBlankCount
+Print RemainBlankCount
+Print FlagCount
+Print BombCount
+Print GameState
+Print GameAnswer
+LeftClick 3 6
+LeftClick 4 6
+RightClick 4 5
+LeftClick 4 4
+Print GameBoard
+RightClick 0 2
+RightClick 0 2
+RightClick 1 0
+RightClick 1 0
+Print GameBoard
+LeftClick 0 1
+LeftClick 1 1
+Print RemainBlankCount
+LeftClick 4 1
+Print RemainBlankCount
+Print GameState
+LeftClick 1 1
+StartGame
+RightClick 0 2
+Replay
+Quit
+Load BoardFile ./boards/board5.txt
+StartGame
+Print GameAnswer
+LeftClick 1 13
+LeftClick 9 0
+LeftClick 12 16
+Print GameBoard
+LeftClick 10 10
+LeftClick 2 5
+Print GameBoard
+RightClick 3 11
+RightClick 6 3
+LeftClick 16 8
+LeftClick 16 9
+Print GameBoard
+LeftClick 3 11
+LeftClick 1 17
+LeftClick 0 17
+LeftClick 0 1
+LeftClick 0 0
+LeftClick 1 0
+RightClick 1 1
+LeftClick 2 2
+LeftClick 3 2
+Print GameBoard
+LeftClick 0 8
+LeftClick 0 9
+LeftClick 0 10
+RightClick 1 10
+RightClick 0 7
+Print GameAnswer
+RightClick 2 3
+RightClick 4 2
+RightClick 5 8
+RightClick 6 8
+RightClick 8 5
+RightClick 12 6
+RightClick 16 7
+RightClick 16 14
+RightClick 12 10
+RightClick 11 8
+RightClick 15 3
+LeftClick 16 3
+RightClick 13 2
+RightClick 10 2
+LeftClick 11 2
+LeftClick 12 2
+Print GameBoard
+LeftClick 8 10
+LeftClick 8 11
+RightClick 8 9
+RightClick 8 12
+LeftClick 8 13
+LeftClick 8 14
+LeftClick 9 14
+LeftClick 10 14
+RightClick 11 14
+RightClick 14 11
+RightClick 14 13
+RightClick 14 12
+LeftClick 8 17
+LeftClick 7 17
+LeftClick 9 17
+Quit

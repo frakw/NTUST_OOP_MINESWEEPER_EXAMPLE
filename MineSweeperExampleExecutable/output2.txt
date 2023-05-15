@@ -1,0 +1,126 @@
+<StartGame> : Failed
+<Load BoardFile ./boards/board2.txt> : Success
+<StartGame> : Success
+<Print GameAnswer> : 
+0 1 1 1 0 0 1 X 2 1 0 0 
+0 1 X 1 0 0 1 2 X 1 0 0 
+0 1 1 1 0 0 0 1 2 2 1 0 
+1 1 0 0 0 0 1 1 2 X 1 0 
+X 2 1 1 1 1 1 X 2 1 1 0 
+4 X 2 1 X 1 1 2 2 1 0 0 
+X X 2 1 1 1 1 2 X 3 2 1 
+2 2 1 0 0 0 2 X 5 X X 1 
+0 0 0 0 0 1 3 X 4 X 3 1 
+0 0 0 0 0 1 X 2 2 2 2 1 
+0 0 0 0 0 2 2 2 0 2 X 2 
+0 0 0 0 0 1 X 1 0 2 X 2 
+<Print GameBoard> : 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+# # # # # # # # # # # # 
+<LeftClick 0 11> : Success
+<LeftClick 11 0> : Success
+<LeftClick 0 0> : Success
+<LeftClick 11 11> : Success
+<LeftClick 0 5> : Success
+<RightClick 4 0> : Success
+<Print GameBoard> : 
+0 1 # 1 0 0 1 # # 1 0 0 
+0 1 # 1 0 0 1 2 # 1 0 0 
+0 1 1 1 0 0 0 1 # 2 1 0 
+1 1 0 0 0 0 1 1 # # 1 0 
+f 2 1 1 1 1 1 # # 1 1 0 
+# # # # # # # # # 1 0 0 
+# # 2 1 1 1 1 # # 3 2 1 
+2 2 1 0 0 0 2 # # # # # 
+0 0 0 0 0 1 3 # # # # # 
+0 0 0 0 0 1 # # # # # # 
+0 0 0 0 0 2 # # # # # # 
+0 0 0 0 0 1 # # # # # 2 
+<LeftClick 10 8> : Success
+<LeftClick 10 6> : Success
+<RightClick 11 6> : Success
+<RightClick 9 6> : Success
+<Print GameBoard> : 
+0 1 # 1 0 0 1 # # 1 0 0 
+0 1 # 1 0 0 1 2 # 1 0 0 
+0 1 1 1 0 0 0 1 # 2 1 0 
+1 1 0 0 0 0 1 1 # # 1 0 
+f 2 1 1 1 1 1 # # 1 1 0 
+# # # # # # # # # 1 0 0 
+# # 2 1 1 1 1 # # 3 2 1 
+2 2 1 0 0 0 2 # # # # # 
+0 0 0 0 0 1 3 # # # # # 
+0 0 0 0 0 1 f 2 2 2 # # 
+0 0 0 0 0 2 2 2 0 2 # # 
+0 0 0 0 0 1 f 1 0 2 # 2 
+<RightClick 0 2> : Success
+<RightClick 1 2> : Success
+<RightClick 0 2> : Success
+<LeftClick 0 2> : Success
+<LeftClick 9 3> : Failed
+<LeftClick 1 10> : Failed
+<LeftClick 2 3> : Failed
+<LeftClick 1 2> : Failed
+<LeftClick 4 0> : Failed
+<RightClick 11 0> : Failed
+<RightClick 11 4> : Failed
+<RightClick 9 4> : Failed
+<LeftClick 0 7> : Success
+You lose the game
+<Replay> : Success
+<StartGame> : Failed
+<Load BoardFile ./boards/board3.txt> : Success
+<StartGame> : Success
+<Print GameAnswer> : 
+1 1 0 0 0 0 1 X 1 0 
+X 1 0 0 0 0 1 1 1 0 
+1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 1 X 1 0 
+0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 1 1 1 0 0 0 
+0 0 0 1 2 X 1 0 1 1 
+0 0 0 1 X 2 1 0 1 X 
+<Print GameBoard> : 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+# # # # # # # # # # 
+<LeftClick 6 1> : Success
+<Print GameBoard> : 
+# 1 0 0 0 0 1 # 1 0 
+# 1 0 0 0 0 1 1 1 0 
+1 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 0 0 1 # 1 0 
+0 0 0 0 0 0 1 1 1 0 
+0 0 0 0 1 1 1 0 0 0 
+0 0 0 1 2 # 1 0 1 1 
+0 0 0 1 # # 1 0 1 # 
+<RightClick 5 7> : Success
+<RightClick 0 7> : Success
+<RightClick 9 9> : Success
+<RightClick 1 0> : Success
+<LeftClick 1 0> : Failed
+<LeftClick 0 0> : Success
+<LeftClick 9 5> : Success
+You win the game
+<Quit> : Success

@@ -1,0 +1,46 @@
+StartGame
+Load BoardFile ./boards/board2.txt
+StartGame
+Print GameAnswer
+Print GameBoard
+LeftClick 0 11
+LeftClick 11 0
+LeftClick 0 0
+LeftClick 11 11
+LeftClick 0 5
+RightClick 4 0
+Print GameBoard
+LeftClick 10 8
+LeftClick 10 6
+RightClick 11 6
+RightClick 9 6
+Print GameBoard
+RightClick 0 2
+RightClick 1 2
+RightClick 0 2
+LeftClick 0 2
+LeftClick 9 3
+LeftClick 1 10
+LeftClick 2 3
+LeftClick 1 2
+LeftClick 4 0
+RightClick 11 0
+RightClick 11 4
+RightClick 9 4
+LeftClick 0 7
+Replay
+StartGame
+Load BoardFile ./boards/board3.txt
+StartGame
+Print GameAnswer
+Print GameBoard
+LeftClick 6 1
+Print GameBoard
+RightClick 5 7
+RightClick 0 7
+RightClick 9 9
+RightClick 1 0
+LeftClick 1 0
+LeftClick 0 0
+LeftClick 9 5
+Quit
