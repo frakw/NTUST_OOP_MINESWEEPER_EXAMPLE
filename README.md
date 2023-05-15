@@ -1,12 +1,11 @@
-# NTUST_OOP_MINESWEEPER_EXAMPLE
- Project1-MineSweeper-助教範例-Source Code
+# Project1-MineSweeper-範例程式-Source Code
 
 ![](imgs/cover.PNG)
 
 ## clone this repository:
 ```console
 git clone https://github.com/frakw/NTUST_OOP_MINESWEEPER_EXAMPLE.git
-``
+```
 
 ## 環境
 * Qt 5.15.2 msvc2019_64
