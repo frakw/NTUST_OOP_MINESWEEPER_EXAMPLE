@@ -1,0 +1,11 @@
+<RCC>
+    <qresource>
+        <file>resources/animations/BombExplosion.gif</file>
+        <file>resources/images/bomb.png</file>
+        <file>resources/images/flag.png</file>
+        <file>resources/images/question_mark.png</file>
+        <file>resources/sounds/BombExplosion.wav</file>
+        <file>resources/sounds/OpenCell.wav</file>
+        <file>resources/sounds/Road to Dazir.mp3</file>
+    </qresource>
+</RCC>

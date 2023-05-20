@@ -150,21 +150,21 @@ private:
 	QMediaPlayer* soundMediaPlayer = nullptr;
 
 	//音檔位置
-	QString openBlankCellSoundLocation = "./sounds/OpenCell.wav";
-	QString bombExplosionSoundLocation = "./sounds/BombExplosion.wav";
+    QUrl openBlankCellSoundLocation = QUrl("qrc:/resources/sounds/OpenCell.wav");
+    QUrl bombExplosionSoundLocation = QUrl("qrc:/resources/sounds/BombExplosion.wav");
 
 	//動畫播放器
 	QMovie* bombExplosionMovie = nullptr;
 
 	//動畫位置
-	QString bombExplosionAnimationLocation = "./animations/BombExplosion.gif";
+    QString bombExplosionAnimationLocation = ":/resources/animations/BombExplosion.gif";
 
 	//圖片相關變數
-	QIcon flagIcon = QIcon(QString("./images/flag.png"));
+    QIcon flagIcon = QIcon(":/resources/images/flag.png");
 	QPixmap flagPixmap;
-	QIcon questionMarkIcon = QIcon(QString("./images/question_mark.png"));
+    QIcon questionMarkIcon = QIcon(":/resources/images/question_mark.png");
 	QPixmap questionMarkPixmap;
-	QIcon bombIcon = QIcon(QString("./images/bomb.png"));
+    QIcon bombIcon = QIcon(":/resources/images/bomb.png");
 	QPixmap bombPixmap;
 
 	//暫存觸發動畫的炸彈格label，用於之後停止播放

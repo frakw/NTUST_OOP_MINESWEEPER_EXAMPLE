@@ -13,3 +13,4 @@ HEADERS += ./src/MineSweeperCore.h
 HEADERS += ./src/BoardCore.h
 HEADERS += ./src/CellCore.h
 CONFIG += console
+RESOURCES += resource.qrc

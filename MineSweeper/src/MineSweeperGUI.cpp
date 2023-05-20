@@ -66,7 +66,7 @@ MineSweeperGUI::MineSweeperGUI(QWidget* parent)
 	soundMediaPlayer->setVolume(100);
 
 	//創建爆炸動畫
-	bombExplosionMovie = new QMovie(bombExplosionAnimationLocation);
+    bombExplosionMovie = new QMovie(bombExplosionAnimationLocation);
 	bombExplosionMovie->setScaledSize(QSize(30, 30));
 
 	//獲取圖片(icon)的pixel map
@@ -471,7 +471,7 @@ void MineSweeperGUI::CreateBoardGridGUI()
 				if (gameCore->GetGameState() == MineSweeperState::PLAYING)
 				{
 					//播放開啟空白格子的音效
-					soundMediaPlayer->setMedia(QUrl::fromLocalFile(openBlankCellSoundLocation));
+                    soundMediaPlayer->setMedia(openBlankCellSoundLocation);
 					soundMediaPlayer->play();
 				}
 				//若遊戲結束了 (輸or贏)
@@ -481,14 +481,14 @@ void MineSweeperGUI::CreateBoardGridGUI()
 					if (gameCore->IsPlayerWin() == true)
 					{
 						//播放開啟空白格子的音效
-						soundMediaPlayer->setMedia(QUrl::fromLocalFile(openBlankCellSoundLocation));
+                        soundMediaPlayer->setMedia(openBlankCellSoundLocation);
 						soundMediaPlayer->play();
 					}
 					//輸了
 					else
 					{
 						//播放炸彈爆炸聲
-						soundMediaPlayer->setMedia(QUrl::fromLocalFile(bombExplosionSoundLocation));
+                        soundMediaPlayer->setMedia(QUrl(bombExplosionSoundLocation));
 						soundMediaPlayer->play();
 
 						//播放炸彈爆炸動畫

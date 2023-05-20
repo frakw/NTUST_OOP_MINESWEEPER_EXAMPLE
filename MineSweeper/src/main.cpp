@@ -72,7 +72,7 @@ int RunGUI(int argc, char* argv[])
 	QMediaPlaylist* bmgPlaylist = new QMediaPlaylist(bgmMediaPlayer);
 
 	//加入一首BGM
-	bmgPlaylist->addMedia(QUrl("./sounds/Road to Dazir.mp3"));
+    bmgPlaylist->addMedia(QUrl("qrc:/resources/sounds/Road to Dazir.mp3"));
 
 	//設定BGM，使其無限循環撥放
 	bmgPlaylist->setPlaybackMode(QMediaPlaylist::Loop);
